@@ -1,0 +1,399 @@
+/*
+Style guide for Milima
+  colours:
+  Black: #000000;
+  Light-Green : #6eeda2;
+  White: #fffff;
+*/
+
+
+/* Making the main font color white */
+
+body {
+  padding: 2rem;
+  box-sizing: border-box;
+  color: black;
+  margin:3rem;
+
+}
+
+/* General styling for all body type */
+
+p {
+  width: 55%;
+  font-family: 'Noto Sans HK', sans-serif;
+  padding-top: 1rem;
+  font-weight: 300;
+  font-size: 0.8em;
+  margin-top: 0;
+  line-height: 1.8;
+  letter-spacing: 0.8px;
+}
+
+/*Adding a green line at the top of an element*/
+
+.element {
+  padding-bottom: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: #6eeda2;
+
+}
+
+/* colour settings */
+
+.black{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  background-color: #000000;
+  margin-bottom:1em;
+  display: block;
+  max-width: 30rem;
+  padding:20px;
+  color: white;
+  border: solid white 1px;
+}
+
+.light-green{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  background-color: #6eeda2;
+  margin-bottom:1em;
+  display: block;
+  max-width: 30rem;
+  padding:20px;
+  color: white;
+}
+
+
+.white{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  background-color: #ffff;
+  margin-bottom:1em;
+  display: block;
+  max-width: 30rem;
+  padding:20px;
+  color: black;
+}
+
+
+
+/* Text headings styles */
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-style: bold;
+  margin-top: 1rem;
+
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 0.8em;
+  letter-spacing: 0.8px;
+  margin-top: 1rem;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  margin-top: 1rem;
+  font-weight: 400;
+
+}
+
+
+h4 {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.1rem;
+  margin-top: 1rem;
+}
+
+/* Labeling sections on style guide */
+
+h5 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  margin-top:0.5rem;
+  font-weight: 400;
+  font-size: 1.5em;
+  color:#ffff;
+}
+
+/* Labeling bigger sections on style guide */
+
+h6 {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.1rem;
+  font-size: 1.5rem;
+  margin-bottom: -0.1rem;
+  }
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #6eeda2;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: black;
+  color: white;
+}
+
+/* captions under images */
+figcaption {
+  font-family: 'Noto Sans HK', sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 0.8em;
+  margin-bottom:2rem;
+}
+
+/*Image state changes based on hovering  */
+img:hover{
+  opacity: 0.4;
+  transition: 0.4s;
+  }
+
+/* Link state changes  */
+a:link, a:visited {
+  color:white;
+}
+a:hover {
+  color: #6eeda2;
+}
+.in-text-link{
+  color: white;
+}
+
+/* style for unorder lists */
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #6eeda2;
+  color: red;
+}
+
+/* style for ordered Lists  */
+ol li{
+    color: white;
+}
+
+/* style for ordered Lists items */
+li {
+  font-family: 'Roboto', sans-serif;
+  font-style: bold;
+  font-weight: 300;
+  font-size: 1rem;
+  letter-spacing: 0.8;
+  color: black;
+
+}
+/* style for ordered Lists items that are links */
+li a {
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 0.8em;
+  letter-spacing: 0.8;
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: black;
+}
+
+/* hover state */
+li a:hover {
+  background-color: #ffffff;
+}
+
+/* For sample code, light green box  */
+code {
+  background-color: #6eeda2;
+  padding: 0.5rem;
+  display: block;
+  color: black;
+}
+
+/* styling for products */
+.product-1{
+  align:left;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  margin-right: -70%;
+  font-size: 1rem;
+}
+
+ /* styling for products  */
+ .product{
+  font-family: 'Roboto', sans-serif;
+  font-style: bold;
+  text-decoration: underline;
+  color:#6eeda2;
+  width: 100%;
+  height: 100%;
+  margin-right: -70%;
+}
+
+/* styling for product list  */
+.product-list{
+  display:inline-block;
+  align: left;
+  width: 100%;
+  height: 100%;
+  margin-right: -70%;
+}
+
+/* styling for items list  */
+.item-info{
+  margin-top: -0.5rem;
+  width: 100%;
+  height: 100%;
+  margin-right: -70%;
+}
+
+/* styling for materials  */
+.materials{
+  color: white;
+  margin-bottom: 1.5em;
+  margin-top: 3em;
+}
+
+/* price styling */
+span.price {
+  float: right;
+  color:white;
+}
+
+/* Input text styling */
+.info{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 0.8em;
+  letter-spacing: 0.8px;
+  margin-top: 1rem;
+}
+#text-Input{
+  text-decoration: none;
+}
+
+/* Styling for the navigation button */
+.button-nav, .button-out{
+  font-style: bold;
+  font-size: 0.8rem;
+  display: inline-block;
+  padding: 0.8rem 1.6rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  color: black;
+  background-color: #6eeda2;
+  text-decoration: none;
+  text-align: center;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+}
+
+.button-nav:hover, .button-nav:focus,
+.button-out:hover, .button-out:focus {
+  background-color: black;
+  color: white;
+}
+
+.reset-button {
+  background-color: rgb(34, 143, 103);
+  font-size: 13px;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+.reset-button:hover {
+  background-color: rgb(209, 232, 223);
+  text-decoration: none;
+  transition: .3s;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+/* Styling for containers */
+.container {
+  background-color:black;
+  padding: 0rem;
+  border: 1px
+  border-radius: 5px;
+}
+
+/* Styling for size choices */
+.size-choices{
+  font-family: 'Roboto', sans-serif;
+  font-style: lighter;
+  display: inline-block;
+  font-weight: 300;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+  padding-left: 10px;
+  margin-right: 10px;
+}
+
+input:focus {
+  outline:none;
+  }
+
+/* styling for the form  boxes */
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  decoration: none;
+}
+
+/* Responsive*/
+@media (max-width: 300px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-20 {
+    margin-bottom: 20px;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+  background-color: red;
+}
+
+* Responsive*/
+@media (max-orientation: landscape) {
+  body {
+  background-color: red;
+}

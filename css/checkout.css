@@ -1,0 +1,192 @@
+
+/* Style setting for the body */
+
+body {
+  font-family: "Cairo", sans-serif;
+  font-weight: 300;
+  font-size: 0.8em;
+  letter-spacing: 0.8px;
+  margin-top: 1rem;
+  padding: 2rem;
+  box-sizing: border-box;
+  margin:3rem;
+  color: black;
+
+}
+
+/* style setting for the headings*/
+
+h4 {
+  font-family:"Cairo", sans-serif;
+  letter-spacing: 0.1rem;
+  margin-top: 1rem;
+  Color: black;
+}
+h6 {
+  font-family:"Cairo", sans-serif;
+  letter-spacing: 0.1rem;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  }
+
+  .element {
+    padding-bottom: 2rem;
+    border-top-width: 0.15rem;
+    border-top-style: solid;
+    border-top-color: #6eeda2;
+  }
+
+  /* Add a black background color to the top navigation */
+  .topnav {
+    background-color: #6eeda2;
+    overflow: hidden;
+  }
+
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: black;
+    color: white;
+    padding: 14px 16px;
+
+  }
+
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: black;
+    color: white;
+    padding: 14px 16px;
+
+  }
+
+/* style setting for unordered lists*/
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #6eeda2;
+}
+
+/* style setting for list items*/
+
+li {
+  font-family:"Cairo", sans-serif;
+  font-style: bold;
+  font-weight: 300;
+  font-size: 1rem;
+  letter-spacing: 0.8;
+
+}
+
+li a {
+  float: left;
+  font-family:"Cairo", sans-serif;
+  font-weight: 300;
+  font-size: 0.8em;
+  letter-spacing: 0.8;
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* hover state */
+li a:hover {
+  color: black;
+}
+
+/* changes in link state  */
+a:link, a:visited {
+  color: black;
+}
+
+a:hover {
+  color: white;
+
+}
+
+/* style setting for buttons*/
+
+.button-nav, .button-out{
+  font-style: bold;
+  font-size: 0.8rem;
+  display: inline-block;
+  padding: 0.8rem 1.6rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  color: black;
+  background-color: #6eeda2;
+  text-decoration: none;
+  text-align: center;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+
+}
+
+.button-nav:hover, .button-nav:focus,
+.button-out:hover, .button-out:focus {
+  background-color: black;
+  color: white;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* containing all input in one box */
+.container {
+  background-color: #6eeda2;
+  padding: 5px 20px 15px 20px;
+  border: 1px
+  border-radius: 3px;
+}
+
+/* cstyling for text input */
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #fffff;
+  border-radius: 0px;
+  decoration: none;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+/* price styling */
+
+span.price {
+  float: right;
+  color:black;
+  font-size: 0.8rem;
+}
+
+/* Responsive*/
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-50 {
+    margin-bottom: 20px;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
