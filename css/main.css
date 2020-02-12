@@ -37,12 +37,12 @@ p {
   border-top-width: 0.15rem;
   border-top-style: solid;
   border-top-color: #6eeda2;
-
+  margin-top: 1rem;
 }
 
 /* colour settings */
 
-.black{
+/* .black{
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   background-color: #000000;
@@ -52,7 +52,7 @@ p {
   padding:20px;
   color: white;
   border: solid white 1px;
-}
+} */
 
 .light-green{
   font-family: 'Roboto', sans-serif;
@@ -66,7 +66,7 @@ p {
 }
 
 
-.white{
+/* .white{
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   background-color: #ffff;
@@ -75,14 +75,14 @@ p {
   max-width: 30rem;
   padding:20px;
   color: black;
-}
+} */
 
 
 
 /* Text headings styles */
 h1{
   font-family: 'Roboto', sans-serif;
-  font-style: bold;
+  font-weight: bold;
   margin-top: 1rem;
 
 }
@@ -161,7 +161,6 @@ h6 {
 /* captions under images */
 figcaption {
   font-family: 'Noto Sans HK', sans-serif;
-  font-style: italic;
   font-weight: 300;
   font-size: 0.8em;
   margin-bottom:2rem;
@@ -175,10 +174,11 @@ img:hover{
 
 /* Link state changes  */
 a:link, a:visited {
-  color:white;
+  color: #038153;
 }
 a:hover {
-  color: #6eeda2;
+  transition: .3s;
+  color: #5EAE91;
 }
 .in-text-link{
   color: white;
@@ -194,16 +194,14 @@ ul {
 
 /* style for ordered Lists  */
 ol li{
-    color: white;
+    color: black;
 }
 
 /* style for ordered Lists items */
 li {
   font-family: 'Roboto', sans-serif;
-  font-style: bold;
-  font-weight: 300;
   font-size: 1rem;
-  letter-spacing: 0.8;
+  letter-spacing: 0.8px;
   color: black;
 
 }
@@ -211,9 +209,9 @@ li {
 li a {
   float: left;
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: bold;
   font-size: 0.8em;
-  letter-spacing: 0.8;
+  letter-spacing: 0.8px;
   display: block;
   padding: 14px 16px;
   text-decoration: none;
@@ -227,6 +225,7 @@ li a:hover {
 
 /* For sample code, light green box  */
 code {
+  font-family: 'Noto Sans HK', sans-serif;
   background-color: #6eeda2;
   padding: 0.5rem;
   display: block;
@@ -235,7 +234,7 @@ code {
 
 /* styling for products */
 .product-1{
-  align:left;
+  text-align: left;
   display: inline-block;
   width: 100%;
   height: 100%;
@@ -246,7 +245,7 @@ code {
  /* styling for products  */
  .product{
   font-family: 'Roboto', sans-serif;
-  font-style: bold;
+  font-weight: bold;
   text-decoration: underline;
   color:#6eeda2;
   width: 100%;
@@ -257,7 +256,7 @@ code {
 /* styling for product list  */
 .product-list{
   display:inline-block;
-  align: left;
+  text-align: left;
   width: 100%;
   height: 100%;
   margin-right: -70%;
@@ -347,14 +346,14 @@ span.price {
 .container {
   background-color:black;
   padding: 0rem;
-  border: 1px
+  border: 1px;
   border-radius: 5px;
 }
 
 /* Styling for size choices */
 .size-choices{
   font-family: 'Roboto', sans-serif;
-  font-style: lighter;
+  font-style: normal;
   display: inline-block;
   font-weight: 300;
   font-size: 0.8rem;
@@ -378,7 +377,6 @@ input[type=text] {
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 0px;
-  decoration: none;
 }
 
 /* Responsive*/
@@ -392,11 +390,83 @@ input[type=text] {
   .col-25 {
     margin-bottom: 20px;
   }
-  background-color: red;
+  body {background-color: red;
+  }
 }
 
-* Responsive*/
-@media (max-orientation: landscape) {
-  body {
-  background-color: red;
+.flex {
+  display: flex;
+}
+
+/* Colours */
+.c-swatch {
+  width: 150px;
+  box-shadow: 0 10px 20px 0 rgba(4,68,77,.15);
+}
+
+.c-swatch-info {
+  background-color: #fff;
+  padding: 10px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  height: 60px;
+}
+
+.c-swatch__info__name {
+    display: block;
+    color: #2f3941;
+    line-height: 1.66667;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.c-swatch__info__hex {
+    color: #87929d;
+}
+
+.c-swatch__info__hex:before{
+    content: "#";
+}
+
+.box{
+	width:150px;
+	padding-top: 7em;
+}
+.black {
+  background: rgb(0,0,0);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.charcoal{
+	background: rgb(31, 31, 31);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.lightgrey{
+	background: rgb(240,240,240);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.white {
+  background: rgb(255,255,255);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.green1 {
+ background: rgb(3, 129, 83);
+ border-top-left-radius: 10px;
+ border-top-right-radius: 10px;
+}
+
+.green2 {
+ background: rgb(94, 174, 145);
+ border-top-left-radius: 10px;
+ border-top-right-radius: 10px;
+}
+
+.green3 {
+  background: rgb(209, 232, 223);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
