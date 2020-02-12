@@ -273,7 +273,7 @@ code {
 
 /* styling for materials  */
 .materials{
-  color: white;
+  color: black;
   margin-bottom: 1.5em;
   margin-top: 3em;
 }
@@ -298,23 +298,26 @@ span.price {
 
 /* Styling for the navigation button */
 .button-nav, .button-out{
-  font-style: bold;
-  font-size: 0.8rem;
-  display: inline-block;
+  background-color: rgb(34, 143, 103);
+  font-size: 13px;
+  border: none;
+  color: white;
   padding: 0.8rem 1.6rem;
-  margin-top: 0.5rem;
-  margin-bottom: 1rem;
-  color: black;
-  background-color: #6eeda2;
   text-decoration: none;
+  cursor: pointer;
+  border-radius: 12px;
+  margin-top: 20px;
   text-align: center;
   transition-property: background-color;
   transition-duration: 0.2s;
+  display: inline-block;
 }
 
 .button-nav:hover, .button-nav:focus,
 .button-out:hover, .button-out:focus {
-  background-color: black;
+  background-color: rgb(209, 232, 223);
+  text-decoration: none;
+  transition: .3s;
   color: white;
 }
 
