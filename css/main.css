@@ -344,7 +344,7 @@ span.price {
 }
 /* Styling for containers */
 .container {
-  background-color:black;
+  background-color:none;
   padding: 0rem;
   border: 1px;
   border-radius: 5px;
