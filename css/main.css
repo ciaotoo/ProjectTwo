@@ -174,7 +174,7 @@ img:hover{
 
 /* Link state changes  */
 a:link, a:visited {
-  color: #038153;
+  color: black;
 }
 a:hover {
   transition: .3s;
