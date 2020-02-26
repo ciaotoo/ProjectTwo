@@ -136,70 +136,38 @@ h6 {
 }
 
 /* NAVIGATION */
-
-.nav-header {
-  position: absolute;
+nav {
+  overflow: hidden;
+  position: fixed;
 }
 
-.nav-menu {
-  width: 100vw;
-  padding-left: 30px;
-  padding-right: 30px;
-  max-width: 100vw;
-  margin-left: auto;
-  margin-right: auto;
-  min-height: auto!important;
-}
-
-.nav-link {
-  margin-left: 0;
+ul {
+  font-family: 'Roboto', sans-serif;
+  list-style-type: none;
+  margin-left: 67px;
   padding: 0;
+  overflow: hidden;
 }
 
-.nav-link-top {
-  display: inline-block;
-  vertical-align: top;
-  color: #222;
-  text-align: left;
-  margin-right: auto;
-}
-
-.home {
-  grid-column: 1;
-  grid-row: 1;
-}
-
-.about {
-  grid-column: 2;
-  grid-row: 1;
-}
-
-.shop {
-  grid-column: 3;
-  grid-row: 1;
-}
-
-
-/* Style the links inside the navigation bar */
-.topnav a {
+li {
   float: left;
-  color: white;
+}
+
+li a {
+  display: block;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
 }
 
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: black;
-  color: white;
+li a:hover {
+  color: #038153;
+  transition: .5s;
 }
 
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: black;
-  color: white;
+.active {
+  font-weight: bold;
 }
 /* NAVIGATION */
 
