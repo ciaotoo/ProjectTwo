@@ -1,3 +1,26 @@
+#global-footer-product-container {
+  position: fixed;
+  z-index: 9000;
+  bottom: 0;
+  color: white;
+  width: 100%;
+  font-size: 12px;
+}
+
+#global-footer-product-container-freeshipping {
+  text-align: center;
+  padding: 15px;
+  background: black;
+  direction: ltr;
+}
+
+.section-format {
+  margin-top: 3em;
+  width: 100vw;
+  overflow: hidden;
+  padding-left: 6.7em;
+}
+
 .main-products {
   padding-left: 4em;
   padding-top: 6em;
@@ -42,8 +65,40 @@
   min-height: 3.3em;
 }
 
+.product-header-button:hover{
+  background-color: blue;
+  transition: .3s;
+}
+
 .product-header-button-align {
   position: absolute;
   left: 6.5em;
   top: 34em;
 }
+
+/* MAIN PRODUCTS */
+
+.column {
+  float: left;
+}
+
+.left-product {
+  width: 33%;
+}
+
+.middle {
+  width: 33%
+}
+
+.right {
+  width: 33%;
+}
+
+.product-format {
+  max-width: 100vw;
+  object-fit: cover;
+  width: 22em;
+  height: 32em;
+}
+
+/* MAIN PRODUCTS */
