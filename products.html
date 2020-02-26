@@ -6,106 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Milima</title>
     <link href="css/main.css" type="text/css" rel="stylesheet">
+    <link href="css/products.css" type="text/css" rel="stylesheet">
     <link href="css/normalize.css" type="text/css" rel="stylesheet" >
     <link href="css/fonts.css" type="text/css" rel="stylesheet" >
+    <link rel="stylesheet" type="text/css" href="css/about.css">
+
+    <!-- Noto sans is the changed body copy font -->
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans+HK&display=swap" rel="stylesheet">
+<!-- Poppins is the changed subheader font -->
+<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap" rel="stylesheet">
+<!-- Roboto is the changed header font -->
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
   </head>
 
 
 <body>
+  <nav role="navigation">
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="products.html" class="active">Products</a></li>
+      <li><a class="float-right" href="html.checkout">Cart</a></li>
+    </ul>
+  </nav>
 
- <!-- Milima's logo at the top and the statements -->
-    <header>
-        <a href = "index.html"><img src="images/logo_1_white.png" alt= "this should be Milima's logo" width="145" height="35"> </a>
-    </header>
-     <br>
+  <section class="main-products">
+    <div class="containers">
+      <h3 class="left">New Arrival</h3>
+      <h1 class="left-header">MAHARISHI S/S 20'</h1>
+      <button type="button" class="product-header-button product-header-button-align" name="button">Shop Now</button>
+      <img class="header-product" src="images/jacket.jpg" alt="A handmade clay bowl fired in the heart of Portugal">
+    </div>
 
-<!-- Top navigation bar -->
-      <div class="topnav">
-        <a href="index.html">Home</a>
-        <a href="#about">About</a>
-        <a class="active" href="products.html">Products</a>
-        <a href="#contact">Contact</a>
-        <a href="#stories">Stories</a>
-        <a href="checkout.html">Cart</a>
-      </div>
-
-<!-- START OF PRODUCT Listing -->
-
-  <section class="element">
-    <h4>Bracelets</h4>
-   <!-- Item 1 -->
-    <div class="product-1" >
-        <img src ="images/light_1.png" alt= "this should bea diamond bracelet" width="350" height="350">
-        <h4 class="product"> LIGHT BRACELET</h4>
-        <h2 class="item-info"> Light colored stones, GPS, Activity </h2>
-        <h2 class="item-info"> $250 CAD </h2>
-        <a class="button-nav" href="#">Add to Cart</a>
-    </div>
-   <!-- Item 2 -->
-    <div class="product-1">
-        <img src ="images/sharp_2.png" alt= "this should be sharp bracelet" width="350" height="350">
-        <h4 class="product"> SHARP BRACELET</h4>
-        <h2 class="item-info"> Dark Stone, GPS, Activity </h2>
-        <h2 class="item-info"> $250 CAD </h2>
-        <a class="button-nav" href="#">Add to Cart</a>
-    </div>
-   <!-- Item 3 -->
-    <div class="product-1">
-        <img src ="images/momentum_3.png" alt= "this should be momentum bracelet" width="350" height="350">
-        <h4 class="product"> MOMENTUM BRACELET</h4>
-        <h2 class="item-info"> Colored Stones, GPS, Activity </h2>
-        <h2 class="item-info"> $250 CAD </h2>
-        <a class="button-nav" href="#">Add to Cart</a>
-    </div>
-<!-- Item 4 -->
-    <div class="product-1">
-        <img src ="images/tiger_9.png" alt= "this should be tiger bracelet" width="350" height="350">
-        <h4 class="product"> TIGER BRACELET</h4>
-        <h2 class="item-info"> BLACK & RED STONES, GPS, Activity </h2>
-        <h2 class="item-info"> $250 CAD </h2>
-        <a class="button-nav" href="#">Add to Cart</a>
-    </div>
-<!-- Item 5 -->
-    <div class="product-1">
-        <img src ="images/ocean_4.png" alt= "this should be ocean bracelet" width="350" height="350">
-        <h4 class="product"> OCEAN BRACELET</h4>
-        <h2 class="item-info"> BLUE & SILVER, GPS, Activity </h2>
-        <h2 class="item-info"> $250 CAD </h2>
-        <a class="button-nav" href="#">Add to Cart</a>
-    </div>
-<!-- Item 6 -->
-    <div class="product-1">
-        <img src ="images/fire_5.png" alt= "this should be fire bracelet" width="350" height="350">
-        <h4 class="product"> FIRE BRACELET</h4>
-        <h2 class="item-info"> Red Red Stones, GPS, Activity </h2>
-        <h2 class="item-info"> $250 CAD </h2>
-        <a class="button-nav" href="#">Add to Cart</a>
-    </div>
-<!-- Item 7 -->
-    <div class="product-1">
-        <img src ="images/water_6.png" alt= "this should be water bracelet" width="350" height="350">
-        <h4 class="product"> WATER BRACELET</h4>
-        <h2 class="item-info"> Blue Rare Stones , GPS, Activity </h2>
-        <h2 class="item-info"> $250 CAD </h2>
-        <a class="button-nav" href="#">Add to Cart</a>
-    </div>
-<!-- Item 8 -->
-
-    <div class="product-1">
-        <img src ="images/united_7.png" alt= "this should be UNITED Bracelet" width="350" height="350">
-        <h4 class="product"> UNITED BRACELET</h4>
-        <h2 class="item-info"> Golden Brown Stones, GPS, Activity </h2>
-        <h2 class="item-info"> $300 CAD </h2>
-        <a class="button-nav" href="#">Add to Cart</a>
-    </div>
-<!-- Item 9 -->
-    <div class="product-1">
-        <img src ="images/earth_8.png" alt= "this should be earth bracelet" width="350" height="350">
-        <h4 class="product"> EARTH BRACELET</h4>
-        <h2 class="item-info"> Green Rare Stones, GPS, Activity </h2>
-        <h2 class="item-info"> $150 CAD </h2>
-        <a class="button-nav" href="#">Add to Cart</a>
-    </div>
   </section>
 </body>
 </html>

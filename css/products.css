@@ -1,0 +1,49 @@
+.main-products {
+  padding-left: 4em;
+  padding-top: 6em;
+}
+
+.header-product {
+  width: 95.5%;
+  height: 40em;
+  overflow: hidden;
+}
+
+.containers {
+  position: relative;
+  color: white;
+}
+
+.left {
+  position: absolute;
+  bottom: 28em;
+  left: 7em;
+  font-size: 12px;
+  font-weight: 100;
+  padding-bottom: 10px;
+  border-bottom: .5px solid;
+}
+
+.left-header {
+  position: absolute;
+  left: 1.7em;
+  padding-top: 6.2em;
+  font-size: 3em;
+}
+
+.product-header-button {
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+  color: black;
+  font-size: 13px;
+  border: none;
+  text-decoration: none;
+  min-width: 9em;
+  min-height: 3.3em;
+}
+
+.product-header-button-align {
+  position: absolute;
+  left: 6.5em;
+  top: 34em;
+}

@@ -10,10 +10,7 @@ Style guide for Milima
 /* Making the main font color white */
 
 body {
-  padding: 2rem;
   box-sizing: border-box;
-  color: black;
-  margin:3rem;
 }
 
 /* General styling for all body type */
@@ -180,46 +177,46 @@ figcaption {
 }
 
 /*Image state changes based on hovering  */
-img:hover{
+/* img:hover{
   opacity: 0.4;
   transition: 0.4s;
-  }
+  } */
 
 /* Link state changes  */
-a:link, a:visited {
+/* a:link, a:visited {
   color: black;
 }
 a:hover {
   transition: .3s;
   color: #5EAE91;
-}
+} */
 .in-text-link{
   color: white;
 }
 
 /* style for unorder lists */
-ul {
+/* ul {
   list-style-type: none;
   overflow: hidden;
   background-color: #6eeda2;
   color: red;
-}
+} */
 
 /* style for ordered Lists  */
-ol li{
+/* ol li{
     color: black;
-}
+} */
 
 /* style for ordered Lists items */
-li {
+/* li {
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
   letter-spacing: 0.8px;
   color: black;
 
-}
+} */
 /* style for ordered Lists items that are links */
-li a {
+/* li a {
   float: left;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
@@ -229,12 +226,12 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
   color: black;
-}
+} */
 
 /* hover state */
-li a:hover {
+/* li a:hover {
   background-color: #ffffff;
-}
+} */
 
 /* For sample code, light green box  */
 code {
