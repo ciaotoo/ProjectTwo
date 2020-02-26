@@ -19,6 +19,7 @@
   width: 100vw;
   overflow: hidden;
   padding-left: 6.7em;
+  margin-bottom: 11em;
 }
 
 .main-products {
@@ -66,7 +67,7 @@
 }
 
 .product-header-button:hover{
-  background-color: blue;
+  background-color: #bababa;
   transition: .3s;
 }
 
@@ -118,6 +119,7 @@
   text-decoration: none;
   font-size: 12px;
   color: #038153;
+  margin-top: 2em;
 }
 
 /* MAIN PRODUCTS */
