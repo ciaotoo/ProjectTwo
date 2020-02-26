@@ -1,12 +1,32 @@
-p {
-  width: 55%;
-  font-family: 'Noto Sans HK', sans-serif;
-  padding-top: 1rem;
-  font-weight: 300;
-  font-size: 0.8em;
-  margin-top: 0;
+/* CONTAINERS */
+.main-container {
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.content-container {
+  width: 100%;
+}
+/* CONTAINERS */
+
+*{
+  box-sizing: border-box;
+}
+
+.about {
+  width: 60%;
+  font-family: 'Noto-sans', sans-serif;
+  font-size: 40px;
+  font-weight: 200;
   line-height: 1.8;
+  margin-top: -9px;
   letter-spacing: 0.8px;
+}
+
+.about-main {
+  padding: 80px;
+  display: block;
 }
 
 body {
