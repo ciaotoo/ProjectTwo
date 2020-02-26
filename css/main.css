@@ -14,7 +14,6 @@ body {
   box-sizing: border-box;
   color: black;
   margin:3rem;
-
 }
 
 /* General styling for all body type */
@@ -476,4 +475,3 @@ input[type=text] {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
-

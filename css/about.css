@@ -1,0 +1,23 @@
+p {
+  width: 55%;
+  font-family: 'Noto Sans HK', sans-serif;
+  padding-top: 1rem;
+  font-weight: 300;
+  font-size: 0.8em;
+  margin-top: 0;
+  line-height: 1.8;
+  letter-spacing: 0.8px;
+}
+
+body {
+  animation: change .6s ease-in;
+}
+
+@keyframes change {
+  0% {
+    background-color: black;
+  }
+  100% {
+    background-color: white;
+  }
+}
