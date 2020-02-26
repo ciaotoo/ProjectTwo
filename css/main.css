@@ -16,8 +16,6 @@ body {
 /* General styling for all body type */
 
 p {
-  width: 55%;
-  font-family: 'Noto Sans HK', sans-serif;
   padding-top: 1rem;
   font-weight: 300;
   font-size: 0.8em;

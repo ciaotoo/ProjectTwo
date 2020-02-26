@@ -101,4 +101,13 @@
   height: 32em;
 }
 
+.product-title-format {
+  font-size: 24px;
+}
+
+.copy-format {
+  width: 70%;
+  letter-spacing: 0px;
+}
+
 /* MAIN PRODUCTS */
