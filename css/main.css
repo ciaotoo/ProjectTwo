@@ -135,6 +135,51 @@ h6 {
   overflow: hidden;
 }
 
+/* NAVIGATION */
+
+.nav-header {
+  position: absolute;
+}
+
+.nav-menu {
+  width: 100vw;
+  padding-left: 30px;
+  padding-right: 30px;
+  max-width: 100vw;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: auto!important;
+}
+
+.nav-link {
+  margin-left: 0;
+  padding: 0;
+}
+
+.nav-link-top {
+  display: inline-block;
+  vertical-align: top;
+  color: #222;
+  text-align: left;
+  margin-right: auto;
+}
+
+.home {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.about {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.shop {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
@@ -156,6 +201,7 @@ h6 {
   background-color: black;
   color: white;
 }
+/* NAVIGATION */
 
 /* captions under images */
 figcaption {
