@@ -366,16 +366,15 @@ hr.line2 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 0.7rem;
-  padding: 0.5rem;
+  padding: 0.7rem;
   background-color: Transparent;
   color: black;
   text-decoration: none;
   transition-property: background-color;
   transition-duration: 0.5s;
-  text-align: center;
-  justify-content: center;
+  text-align: left;
+  justify-content: left;
   width: 100%;
-  border: solid 1px black;
   margin: 0;
 
 }
@@ -432,6 +431,22 @@ margin-top: 0;
 
 
 /* BUTTON STYLING */
+.button-nav {
+  display: inline-block;
+  padding: 0.5em;
+
+  background-color: #9ee7ba;
+  color: black;
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 0.9em;
+  border-style: none;
+
+}
+
 .button-nav , .submit-style, .reset-style , .button-addtocart {
   display: inline-block;
   padding: 0.5em 1em 0.5em 1em;
