@@ -10,18 +10,12 @@ Style guide for Milima
 /* Making the main font color white */
 
 body {
-  padding: 2rem;
   box-sizing: border-box;
-  color: black;
-  margin:3rem;
-
 }
 
 /* General styling for all body type */
 
 p {
-  width: 55%;
-  font-family: 'Noto Sans HK', sans-serif;
   padding-top: 1rem;
   font-weight: 300;
   font-size: 0.8em;
@@ -136,27 +130,41 @@ h6 {
   overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
-.topnav a {
+/* NAVIGATION */
+nav {
+  overflow: hidden;
+  position: fixed;
+}
+
+ul {
+  font-family: 'Roboto', sans-serif;
+  list-style-type: none;
+  margin-left: 67px;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
   float: left;
-  color: white;
+}
+
+li a {
+  display: block;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
 }
 
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: black;
-  color: white;
+li a:hover {
+  color: #038153;
+  transition: .5s;
 }
 
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: black;
-  color: white;
+.active {
+  font-weight: bold;
 }
+/* NAVIGATION */
 
 /* captions under images */
 figcaption {
@@ -167,46 +175,46 @@ figcaption {
 }
 
 /*Image state changes based on hovering  */
-img:hover{
+/* img:hover{
   opacity: 0.4;
   transition: 0.4s;
-  }
+  } */
 
 /* Link state changes  */
-a:link, a:visited {
+/* a:link, a:visited {
   color: black;
 }
 a:hover {
   transition: .3s;
   color: #5EAE91;
-}
+} */
 .in-text-link{
   color: white;
 }
 
 /* style for unorder lists */
-ul {
+/* ul {
   list-style-type: none;
   overflow: hidden;
   background-color: #6eeda2;
   color: red;
-}
+} */
 
 /* style for ordered Lists  */
-ol li{
+/* ol li{
     color: black;
-}
+} */
 
 /* style for ordered Lists items */
-li {
+/* li {
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
   letter-spacing: 0.8px;
   color: black;
 
-}
+} */
 /* style for ordered Lists items that are links */
-li a {
+/* li a {
   float: left;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
@@ -216,12 +224,12 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
   color: black;
-}
+} */
 
 /* hover state */
-li a:hover {
+/* li a:hover {
   background-color: #ffffff;
-}
+} */
 
 /* For sample code, light green box  */
 code {
@@ -476,4 +484,3 @@ input[type=text] {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
-
