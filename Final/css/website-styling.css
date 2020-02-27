@@ -1,0 +1,354 @@
+/* For addiitonal styling that pertains to the website and its responsiveness */
+
+
+/* HEADER + Minima LOGO */
+header {
+  margin-bottom: 2rem;
+}
+
+footer {
+  margin-top: 2rem;
+}
+
+
+.heading {
+  display: block;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+
+
+/* SUB TITLE FOR ORDER SUMMARY */
+
+
+.cart-edit{
+ padding-top: -20em;
+  color: #b7b7b7;
+  text-decoration: none;
+}
+
+
+.cart-edit:hover{
+  color: #6eeda2;
+
+}
+
+.summary-title{
+  margin-bottom: 0em;
+
+}
+
+.content {
+
+margin-top: 1.5rem;
+}
+
+
+.portion p {
+    text-align: left;
+}
+
+.pd-portion {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+
+.bg {
+  max-height: 100%;
+  max-width: 100%;
+  border: 1.25px solid black;
+
+}
+
+.cart-container {
+  margin-top: 2rem;
+}
+
+
+/* clare */
+.con-col {
+  display: flex;
+  justify-content: space-around;
+  /* flex-direction: row; */
+  border: 1px solid black;
+}
+
+
+/* .cc1-con {
+  display:block;
+} */
+
+.cc1 {
+margin: 0 auto;
+padding-top: 3rem;
+align-items: end;
+line-height: 1.5em;
+}
+
+.prod-con {
+  padding-bottom: 1em;
+}
+
+.cc1-img {
+  margin-top: -2rem;
+  width: 150px;
+}
+
+.cc1-img2 {
+  margin-top: -1rem;
+}
+
+.con-col2 {
+  margin-top: 1rem;
+}
+
+
+
+
+
+
+
+/* BUTTON ON LANDING PAGE */
+
+.last {
+  margin-top: 1rem;
+}
+
+.lw{
+  position:relative;
+}
+
+
+.button-landing, .button-landing-2{
+  transition: .5s ease;
+  padding: 1rem 2rem 1rem 2rem;
+  color: black;
+  background-color: rgba(206, 240, 212, 0.65);
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 1.25em;
+  border: 1.25px solid black;
+}
+
+
+.bl-2 {
+  text-align: center;
+  margin-top: -50%;
+  margin-bottom: 50%;
+}
+
+.landing-wrapper {
+  padding-bottom: 1rem;
+
+}
+
+
+.landing-wrapper2 {
+  display: flex;
+}
+
+/* IMAGES 3X ON LANDING */
+
+.choice-img {
+/*  border: 1.25px solid #6eeda2;*/
+
+}
+
+
+/* END LANDING */
+
+
+.button-addtocart2 {
+  background-color: #f0eee3;
+  color: black;
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  padding: 1em 2em 1em 2em;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+/* BUTTON BACK TO SHOPPING*/
+
+
+.button-back{
+  background-color: #b2e0b5;
+  color: black;
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  padding: 1em 2em 1em 2em;
+  border: 1px solid black;
+  display:flex;
+  justify-content: center;
+  margin-top: 1em;
+
+}
+
+
+.button-back:hover{
+  background-color: #efefef;
+  color: black;
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  padding: 1em 2em 1em 2em;
+  border: 1px solid black;
+  display:flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.button-landing{
+    position: absolute;
+    top: 90%;
+    left: 30%;
+    transform: translate(-90%, -15%);
+}
+
+.button-landing:hover, .button-landing:focus,
+.button-landing-2:hover, .button-landing-2:focus{
+  background-color: #7eb994;
+  color: black;
+  outline:none;
+}
+
+ .button-addtocart2:hover, .button-addtocart2:focus, .footer-submit:hover, .footer-submit:focus  {
+background-color: #6eeda2;
+color: white;
+}
+
+
+/* PAGE INTRO */
+
+
+.content-title{
+  display: block;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+
+/* PRODUCT DETAIL CSS */
+
+
+.pd-style2 {
+  border: 1px solid black;
+}
+.pd-style  {
+  background-color: rgb(240, 238, 227, 0.1);
+}
+
+
+/* END PRODCUT DETAIL CSS */
+
+/* ADD TO CART CSS*/
+
+.b-atc2 {
+  margin-top: 3rem;
+}
+
+/* END ADD TO CART CSS */
+
+/* FOOTER CSS */
+
+
+.fcolumn {
+    flex: 1;
+}
+
+.fcolumn2 {
+  display: flex;
+  margin-left: 15em;
+}
+
+.f2-column {
+  line-height: 1.5em;
+  margin-right: 5em;
+}
+
+.fc-cont {
+  display: block;
+}
+
+
+.fc1 {
+  max-width: 500px;
+}
+.search-style {
+  width: 200px;
+}
+
+.footer-search {
+border: solid 1px #6eeda2;
+}
+
+.footer-submit {
+  margin-left: -5px;
+  padding: 1.08em 2em 1.08em 2em;
+  background-color: #e3f0e3;
+  color: black;
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 0.9em;
+  border: solid 1px black;
+  text-transform: uppercase;
+
+}
+
+#footer-bar {
+  border: solid 1px #6eeda2;
+
+}
+
+hr.line-black {
+  border: 0.5px solid #6eeda2;
+}
+
+
+/* END FOOTER CSS */
+
+/* ABOUT PAGE CSS */
+
+
+.about-info, .por2 {
+  margin-top: 3em;
+}
+
+.portion p {
+  line-height: 1.5em;
+}
+
+.portion h2 {
+  font-size: 2em;
+  margin-top:0;
+}
+
+
+
+/* END ABOUT PAGE CSS */
+
+
+.product-list-grid {
+  margin: 0 auto;
+}
