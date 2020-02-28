@@ -99,6 +99,7 @@ h3 {
 
 h4 {
   margin-bottom: 0.25rem;
+  color:#6eeda2;
 }
 
 p {
@@ -131,7 +132,7 @@ p , li {
 h2 , h3 , h4 , h5 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  color: #28261a;
+  color:#6eeda2;
 }
 
 
@@ -259,6 +260,9 @@ figcaption {
   color:black;
 }
 
+.preloved-product{
+color: #6eb48e;
+}
 
 input:focus, textarea:focus, select:focus{
        outline: none;
