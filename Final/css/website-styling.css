@@ -221,14 +221,15 @@ line-height: 1.5em;
 
 .button-landing:hover, .button-landing:focus,
 .button-landing-2:hover, .button-landing-2:focus{
-  background-color: #7eb994;
-  color: black;
+  background-color: #286531;
+  color: white;
   outline:none;
 }
 
  .button-addtocart2:hover, .button-addtocart2:focus, .footer-submit:hover, .footer-submit:focus  {
-background-color: #6eeda2;
+background-color: #ef7b17;
 color: white;
+transition: .3s;
 }
 
 
@@ -300,9 +301,8 @@ border: solid 1px #6eeda2;
 }
 
 .footer-submit {
-  margin-left: -5px;
-  padding: 1.08em 2em 1.08em 2em;
-  background-color: #3ec03e;
+  padding: 1.07em 2em 1.08em 2em;
+  background-color: #f99a48;
   color: black;
   text-decoration: none;
   transition-property: background-color;
@@ -316,12 +316,12 @@ border: solid 1px #6eeda2;
 }
 
 #footer-bar {
-  border: solid 1px #6eeda2;
+  border: solid 1px #286531;
 
 }
 
 hr.line-black {
-  border: 0.5px solid #6eeda2;
+  border: 0.5px solid #286531;
 }
 
 
@@ -346,6 +346,22 @@ hr.line-black {
 
 
 /* END ABOUT PAGE CSS */
+
+#global-footer-product-container {
+  position: fixed;
+  z-index: 9000;
+  bottom: 0;
+  color: white;
+  width: 100%;
+  font-size: 12px;
+}
+
+#global-footer-product-container-freeshipping {
+  text-align: center;
+  padding: 13px;
+  background: black;
+  direction: ltr;
+}
 
 
 .product-list-grid {
