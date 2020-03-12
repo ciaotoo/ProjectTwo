@@ -288,6 +288,10 @@ transition: .3s;
   display: block;
 }
 
+.fc-cont-style {
+  width: 200%;
+}
+
 
 .fc1 {
   max-width: 500px;
