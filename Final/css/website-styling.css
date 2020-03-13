@@ -121,7 +121,7 @@ line-height: 1.5em;
 
 .button-landing, .button-landing-2{
   transition: .5s ease;
-  padding: 1rem 2rem 1rem 2rem;
+  padding: .6rem 2.5rem .6rem 2.5rem;
   color: black;
   background-color: #e3f0e3;
   text-decoration: none;
@@ -215,10 +215,18 @@ line-height: 1.5em;
 
 .button-landing{
     position: absolute;
-    top: 90%;
-    left: 30%;
+    top: 75%;
+    left: 32%;
     transform: translate(-90%, -15%);
 }
+
+@media(max-width:987px){
+  .button-landing {
+    top: 31%;
+    left: 71%;
+  }
+}
+
 
 .button-landing:hover, .button-landing:focus,
 .button-landing-2:hover, .button-landing-2:focus{
