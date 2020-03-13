@@ -378,6 +378,11 @@ hr.line-black {
   direction: ltr;
 }
 
+@media (max-width: 800px) {
+  #global-footer-product-container  {
+  margin-left: -3.3em;
+  }
+
 
 .product-list-grid {
   margin: 0 auto;
