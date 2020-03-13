@@ -148,6 +148,8 @@ line-height: 1.5em;
 
 .landing-wrapper2 {
   display: flex;
+  grid-gap: 10px;
+
 }
 
 /* IMAGES 3X ON LANDING */
@@ -175,6 +177,11 @@ line-height: 1.5em;
   justify-content: center;
   border: 1px solid black;
 }
+
+
+
+
+
 
 /* BUTTON BACK TO SHOPPING*/
 
@@ -336,7 +343,10 @@ border: solid 1px #6eeda2;
 hr.line-black {
   border: 0.5px solid #286531;
 }
+hr.line-white {
+border:3px solid #f1f1f1"
 
+}
 
 /* END FOOTER CSS */
 

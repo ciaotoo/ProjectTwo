@@ -41,6 +41,8 @@
   margin-top: 1em;
 }
 
+/* Start of Color Palette */
+
 .black {
   background: rgb(0,0,0);
 }
@@ -69,7 +71,7 @@
   background: #E18136;
 }
 
-/* COLOR PALETTE */
+/* End of Color Palette */
 
 
 body {
@@ -305,7 +307,6 @@ figcaption {
   font-size: 0.8em;
   font-weight: 500;
   margin-top:0.2em;
-
 }
 
 .Prod-cart{
@@ -314,8 +315,6 @@ figcaption {
   margin-top:2em;
   text-decoration: none;
   color: #6eb48e;
-
-
 }
 .payment-form, .contact-form{
   max-width: 500px;
@@ -450,9 +449,8 @@ hr.line2 {
 /* PHOTO AS A LINK STYLING */
 
 .photo-link:hover {
-  opacity: 0.5;
+  opacity: 0.5; 
 }
-
 
 /* NAVIGATION STYLING */
 
