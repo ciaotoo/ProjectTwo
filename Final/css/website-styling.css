@@ -361,12 +361,14 @@ hr.line-black {
 /* END ABOUT PAGE CSS */
 
 #global-footer-product-container {
+  font-family: "roboto";
   position: fixed;
   z-index: 9000;
   bottom: 0;
   color: white;
-  width: 100%;
+  width: 100% !important;
   font-size: 12px;
+  margin-left: -4.7em;
 }
 
 #global-footer-product-container-freeshipping {
