@@ -1,0 +1,894 @@
+/*HEADING Minima CSS */
+
+.heading {
+  display: block;
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+
+.minima {
+  font-family: 'Roboto', sans-serif;
+  font-size: 4em;
+  color: black;
+  margin-top: -1em;
+  margin-bottom: 0.5em;
+  text-decoration: none;
+}
+
+/* Start of Color Palette */
+
+.black {
+  background: rgb(0,0,0);
+}
+
+.darkgreen {
+  background: #7EB291;
+}
+
+.sagegreen {
+  background: #BCDFB9;
+}
+
+.lightgreen {
+  background: #E6F0E4;
+}
+
+.lightgrey {
+  background: #EFEFEF;
+}
+
+.lightorange {
+  background: #ED9E59;
+}
+
+.darkorange {
+  background: #E18136;
+}
+.heading-style {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 0.3px rgb(240, 240, 240);
+  margin-top: 2%;
+  padding-bottom: 3%;
+}
+
+.c-swatch {
+  display: block;
+  width: 150px;
+}
+
+.c-swatch-info {
+  display: block;
+  background-color: #fff;
+  padding: 10px;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+
+.c-swatch__info__name {
+    display: block;
+    color: #2f3941;
+    line-height: 1.66667;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.c-swatch__info__hex {
+    color: #87929d;
+}
+
+.c-swatch__info__hex:before{
+    content: "#";
+}
+
+.boxwidth{
+	width:150px;
+	height:100px;
+  margin-top: 1em;
+}
+/* End of Color Palette */
+
+
+body {
+  font-weight: 300;
+  font-size: 0.8em;
+  letter-spacing: 0.8px;
+}
+
+.about-copy-width {
+  width: 43%;
+}
+
+/* Section titles */
+
+section {
+  max-width:800px;
+}
+
+.element {
+  padding-bottom: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: black;
+}
+
+h3 {
+  margin-top: 1rem;
+}
+
+h4 {
+  margin-bottom: 0.25rem;
+  color:#286531;
+}
+
+p {
+  margin-top: 0;
+}
+
+nav a:hover, nav a:focus {
+  text-decoration: none;
+}
+
+* {
+  background: white;
+  box-sizing: border-box;
+}
+
+code {
+  background-color: #c3ddc4;
+  padding: 0.5rem;
+  display: block;
+}
+
+p , li {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  letter-spacing: 0.08em;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+  margin-top: 10px;
+  margin-bottom: 0;
+  color:##286531;
+}
+
+h2 , h3 , h4 , h5 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color:#286531;
+}
+
+
+h6 {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.1rem;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  }
+
+a {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9em;
+}
+
+/* Hover state  */
+
+li a:hover {
+  background-color: #e2f0e4;
+}
+
+/* Align items list to the lift*/
+
+li {
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 0.8rem;
+  letter-spacing: 0.8;
+
+}
+
+li a {
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 0.8em;
+  letter-spacing: 0.8;
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Italic font*/
+
+.italic{
+  font-style: italic;
+}
+
+/* Bold font*/
+
+.bold{
+  font-weight: 400;
+}
+
+#text-Input{
+  text-decoration: none;
+ }
+
+
+/* In text links styling */
+.intext-link , .cite {
+  text-decoration: none;
+  color: black;
+}
+
+.intext-link:hover , .cite:hover , .Prod-cart:hover {
+  color: #286531;
+}
+
+/* Photo links styling */
+
+.photo-link:hover {
+  opacity: 0.5; 
+}
+
+/* Nav bar styling */
+
+.button-nav-main {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 0.7rem;
+  padding: 0.7rem;
+  background-color: Transparent;
+  color: black;
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  text-align: left;
+  justify-content: left;
+  width: 100%;
+  margin: 0;
+
+}
+
+.button-nav-main:hover, .button-nav-main:focus {
+  background-color: #e3f0e3;
+  color: black;
+}
+
+/* Rows styling */
+
+.row1 {
+  display: flex;
+}
+
+.info {
+margin-top: 0;
+}
+
+.row1 img{
+  margin-top: 2pt;
+  width:100px;
+}
+
+.row1 .info .Price {
+  margin-top: 2pt;
+}
+
+.row2 p {
+  margin-bottom:0;
+  font-size: .9em;
+  margin-left: auto;
+  line-height: 1.5;
+}
+
+
+.row3 .column1 p {
+  margin: 0;
+  margin-bottom: 1.5pt;
+  font-size: .9em;
+}
+
+.row4 p {
+  font-size: .9em;
+}
+
+.row5 {
+  font-size: .9em;
+  margin-top: 50px;
+}
+
+
+/* Buttons styling  */
+.button-nav {
+  display: inline-block;
+  padding: 0.5em;
+  background-color: #f99a48;
+  color: black;
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 0.9em;
+  border-style: none;
+
+}
+
+.button-nav , .submit-style, .reset-style , .button-addtocart {
+  display: inline-block;
+  padding: 0.5em 1em 0.5em 1em;
+
+  background-color: #f99a48;
+  color: black;
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 0.9em;
+  border-style: none;
+    border: solid 1px black;
+}
+
+
+.button-out{
+  font-family: Lato;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 0.7rem;
+  display: inline-block;
+  padding: 1em;
+  margin-top: 0.5rem;
+  color: #e4f0e2;
+  background-color: #e4f0e2;
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  border-radius: 0.5rem;
+
+}
+
+.button-nav:hover, .button-nav:focus , .button-addtocart:hover, .button-addtocart:focus,  .submit-style:hover, .submit-style:focus, .reset-style:hover, .reset-style:focus {
+  background-color: #ef7b17;
+  color:white;
+  transition: .3s
+}
+
+.button-addtocart2 {
+  background-color: #e3f0e3;
+  color: black;
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  padding: 1em 2em 1em 2em;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+/* back to shopping button styling*/
+
+.button-back{
+  background-color: #b2e0b5;
+  color: black;
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  padding: 1em 2em 1em 2em;
+  border: 1px solid black;
+  display:flex;
+  justify-content: center;
+  margin-top: 1em;
+
+}
+
+.button-back:hover{
+  background-color: #efefef;
+  color: black;
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  padding: 1em 2em 1em 2em;
+  border: 1px solid black;
+  display:flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.button-landing{
+    position: absolute;
+    top: 75%;
+    left: 32%;
+    transform: translate(-90%, -15%);
+}
+
+.button-landing, .button-landing-2{
+  transition: .5s ease;
+  padding: .6rem 2.5rem .6rem 2.5rem;
+  color: black;
+  background-color: #e3f0e3;
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1.25em;
+  border: 1px solid black;
+}
+
+.button-landing:hover, .button-landing:focus,
+.button-landing-2:hover, .button-landing-2:focus{
+  background-color: #E18136;
+  color: white;
+  outline:none;
+}
+
+ .button-addtocart2:hover, .button-addtocart2:focus, .footer-submit:hover, .footer-submit:focus  {
+background-color: #ef7b17;
+color: white;
+transition: .3s;
+}
+
+/* unordered list styling  */
+
+#citations ul a {
+  font-size: 10pt;
+}
+
+/* product info styling*/
+
+.Price {
+  font-weight: 500;
+  margin-top:1em;
+}
+
+/* Data input boxes styling */
+
+input[type=text] {
+  margin-bottom: 20px;
+  padding: 1.1em;
+  border: 1px solid #ccc;
+  decoration: none;
+}
+
+input[type=search]:focus  {
+outline: none;
+color:#6eeda2;
+decoration:none;
+}
+
+input[type=search] {
+  padding:1em;
+  border: -0.5em solid black;
+}
+
+/* text container styling */
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px
+  border-radius: 3px;
+}
+
+/* Three column layout */
+.side {
+  float: left;
+  width: 15%;
+  margin-top:10px;
+}
+
+.middle {
+  margin-top:10px;
+  float: left;
+  width: 70%;
+}
+
+/* Place text to the right */
+.right {
+  text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The rating bar container */
+.bar-container {
+  width: 80%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+
+/* Individual rating bar*/
+.bar-5 {
+  width: 80%;
+  height: 18px;
+  background-color:
+  #a4b5a5;
+  margin-top: 1em;
+  }
+
+/* Responsive layout - make the columns stack on top of each other */
+@media (max-width: 400px) {
+  .side, .middle {
+    width: 100%;
+  }
+  .right {
+    display: none;
+  }
+}
+
+/* order summary subtilte */
+
+.cart-edit{
+ padding-top: -20em;
+  color: #b7b7b7;
+  text-decoration: none;
+}
+
+.cart-edit:hover{
+  color: #6eeda2;
+}
+
+.summary-title{
+  margin-bottom: 0em;
+}
+
+.content {
+margin-top: 1.5rem;
+}
+
+.portion p {
+    text-align: left;
+}
+
+.pd-portion {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 0.25rem;
+
+}
+
+.bg {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.cart-container {
+  margin-top: 2rem;
+}
+
+.con-col {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cc1 {
+margin: 0 auto;
+padding-top: 3rem;
+align-items: end;
+line-height: 1.5em;
+}
+
+.prod-con {
+  padding-bottom: 1em;
+}
+
+.cc1-img {
+  margin-top: -2rem;
+  width: 150px;
+}
+
+.cc1-img2 {
+  margin-top: -1rem;
+}
+
+.con-col2 {
+  margin-top: 1rem;
+}
+
+
+/* landing page button */
+
+.last {
+  margin-top: 1rem;
+}
+
+.lw{
+  position:relative;
+}
+
+
+.bl-2 {
+  text-align: center;
+  margin-top: -50%;
+  margin-bottom: 50%;
+}
+
+/* Containers on the lading page */
+
+.landing-wrapper {
+  padding-bottom: 1rem;
+
+}
+
+.landing-wrapper2 {
+  display: flex;
+  grid-gap: 10px;
+
+}
+
+
+@media(max-width:986px){
+  .button-landing {
+    top: 31%;
+    left: 71%;
+  }
+}
+
+/* page intro */
+
+.content-title{
+  display: block;
+  text-align: left;
+  margin-bottom: 4rem;
+}
+
+/* Product details */
+.main-product{
+  color: #6eb48e;
+}
+
+.pd-style2 {
+  /* for the smaller images */
+}
+.pd-style  {
+  /* for the smaller images */
+}
+
+/* add to cart css*/
+
+.b-atc2 {
+  margin-top: 3rem;
+}
+
+/* Footer CSS */
+
+.fcolumn {
+    flex: 1;
+}
+
+.fcolumn2 {
+  display: flex;
+  margin-left: 15em;
+}
+
+.f2-column {
+  line-height: 1.5em;
+  margin-right: 5em;
+}
+
+.fc-cont {
+  display: block;
+}
+
+.fc-cont-style {
+  width: 200%;
+}
+
+.fc1 {
+  max-width: 500px;
+}
+.search-style {
+  width: 200px;
+}
+
+.footer-search {
+border: solid 1px #6eeda2;
+}
+
+.footer-submit {
+  padding: 1.07em 2em 1.08em 2em;
+  background-color: #f99a48;
+  color: black;
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 0.9em;
+  border: solid 1px black;
+  text-transform: uppercase;
+}
+#footer-bar {
+  border: solid 1px #286531;
+
+}
+
+hr.line-black {
+  border: 0.5px solid #286531;
+}
+hr.line-white {
+border: 5px solid #f1f1f1"
+
+}
+
+/* About page css */
+
+.about-info, .por2 {
+  margin-top: 3em;
+}
+
+.portion p {
+  line-height: 1.5em;
+}
+
+.portion h2 {
+  font-size: 2em;
+  margin-top:0;
+}
+
+/* checkout css  */
+
+
+.cart-container{
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 4em;
+
+}
+.Price-cart{
+  font-size: 0.8em;
+  font-weight: 500;
+  margin-top:0.2em;
+}
+
+.Prod-cart{
+  font-size: 1em;
+  font-weight: 500;
+  margin-top:2em;
+  text-decoration: none;
+  color: #6eb48e;
+}
+
+.contact-form{
+  max-width: 500px;
+  padding: 4em;
+  border: 0.05em solid #6eb48e;
+  margin-bottom: 2em;
+  flex:3;
+}
+.payment-form{
+  max-width: 500px;
+  padding: 4em;
+  border: 0.05em solid #6eb48e;
+  margin-bottom: 2em;
+  flex:3;
+}
+
+.checkout-items{
+  max-width: 500px;
+  margin-bottom: 2em;
+  margin-left: 6em;
+  padding: 2em;
+  flex:1;
+}
+
+.checkout-items-style{
+  max-width: 500px;
+  margin-bottom: 2em;
+  padding: 2em;
+  flex:1;
+}
+
+.label-style {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 0.8em;
+  color:black;
+}
+
+.main-product{
+color: #6eb48e;
+}
+
+input:focus, textarea:focus, select:focus{
+       outline: none;
+
+   }
+
+
+   .bill-info-1, .contact-info-1 {
+
+     display:flex;
+     flex-direction: column;
+     max-width: 500px;
+
+   }
+
+   .bill-style{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+     font-size: 0.8em;
+   }
+
+   .bill-info-1, .input-style , .bill-info-3, .contact-info-1 {
+   color: black;
+   border-color: #286531;
+   margin-top: 0.8em;
+   margin-bottom: 0.8em;
+   }
+
+   .message-style{
+     color: black;
+     border-color: #286531;
+     margin-top: 0.8em;
+     margin-bottom: 0.8em;
+     height:10em;
+   }
+
+   .bill-info-2 , .bill-info-4 {
+     display:inline-block;
+     max-width: 500px;
+     padding-bottom:20px;
+   }
+
+   input[type=submit]:focus , input[type=reset]:focus , input[type=text]:focus  {
+   outline: none;
+   color:black;
+   decoration:none;
+
+   }
+
+
+   .bill-info-3 {
+     display:flex;
+     flex-direction: column;
+     max-width: 200px;
+   }
+
+
+   .subtotal{
+     padding:-12em;
+   }
+/* global css  */
+
+#global-footer-product-container {
+  font-family: "Roboto";
+  position: fixed;
+  z-index: 9000;
+  bottom: 0;
+  color: white;
+  width: 100% !important;
+  font-size: 12px;
+  margin-left: -4.7em;
+}
+
+#global-footer-product-container-freeshipping {
+  text-align: center;
+  padding: 13px;
+  background: black;
+  direction: ltr;
+}
+
+.product-list-grid {
+  margin: 0 auto;
+}
